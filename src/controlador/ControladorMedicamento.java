@@ -256,7 +256,7 @@ public class ControladorMedicamento {
                     
                     vista.getTxtIdentificacion().setText(String.valueOf(pe.getCodigo()));
                     vista.getTxtNomcomercial().setText(pe.getNomcomercial());
-                    vista.getTxtNomcomercial().setText(pe.getNomcomercial());
+                    vista.getTxtNomgenerico().setText(pe.getNomgenerico());
                     vista.getJcElaboracion().setDate(pe.getElaboracion());
                     vista.getJcExpiracion().setDate(pe.getExpiracion());
                     vista.getSpinnerCosto().setValue(pe.getCosto());
